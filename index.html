@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>InnovaSphere</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="icon" href="is.png" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        .row.content {
+            height: 450px
+        }
+
+        /* Set gray background color and 100% height */
+        .sidenav {
+            padding-top: 20px;
+            background-color: #f1f1f1;
+            height: 100%;
+        }
+
+        /* Set black background color, white text and some padding */
+        footer {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
+
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+
+            .row.content {
+                height: auto;
+            }
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse" style="background-color: black;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="esfera.png" alt="" style="width: 30px; margin-top: -6px;"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li ><a href="#">InnovaShphere</a></li>
+                    <li><a href="https://www.wikihouse.cc/">WikiHouse</a></li>
+                    <li><a href="#team">Equipo</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid text-center">
+        <div class="row content">
+            <!-- <div class="col-sm-2 sidenav">
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+    </div> -->
+            <div class="col-sm-10 text-left">
+                <div style="display: flex;justify-content: center;align-items:center;">
+
+                    <img src="is.png" alt=""
+                        style="width:360px; animation: rotate 15s linear infinite;margin-top: 30px;">
+                </div>
+                <h1 style="color: black;"><b>Wikihouse</b></h1>
+                <p>WikiHouse es un proyecto de código abierto que busca democratizar el diseño y la construcción de
+                    viviendas. Fue iniciado en el Reino Unido en 2011 y se ha expandido a nivel mundial desde entonces.
+                    La idea detrás de WikiHouse es permitir que las personas diseñen, compartan y construyan sus propias
+                    casas de manera asequible y sostenible utilizando tecnología de código abierto y fabricación
+                    digital.
+                    fue creado por un grupo de diseñadores y desarrolladores en el Reino Unido. El concepto original y
+                    la fundación de WikiHouse se atribuyen principalmente a Alastair Parvin y Nick Ierodiaconou, quienes
+                    trabajaron en el proyecto desde sus primeros días. Su objetivo era democratizar el diseño y la
+                    construcción de viviendas al hacer que los planos y las tecnologías de fabricación digital
+                    estuvieran disponibles de manera gratuita y abierta para cualquier persona interesada en construir
+                    su propia vivienda.
+                </p>
+
+                <div style="display: flex; justify-content: center; align-items: center; margin-top: 45px;margin-bottom: 45px; flex-direction: column;">
+                    <iframe width="80%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1560711916&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/mallgrab" title="Mall Grab" target="_blank" style="color: #cccccc; text-decoration: none;">Mall Grab</a> · <a href="https://soundcloud.com/mallgrab/say-nothing" title="SAY NOTHING" target="_blank" style="color: #cccccc; text-decoration: none;">SAY NOTHING</a></div>
+                </div>                
+
+                <h1 style="color: black;"><b>¿Cómo funciona?</b></h1>
+                <p>
+                <p>Para realizar los planos de la vivienda, los usuarios tienen que visitar el sitio de WikiHouse (que
+                    todavía está construyéndose) e introducir medidas básicas como la anchura y la altura que serán
+                    interpretados por algoritmos y que será utilizados para calcular el coste del proyecto y hasta
+                    cuantos clavos se necesitarán.
+                    Los componentes de la casa no se manufacturarán en fábricas centralizadas sino por una red
+                    distribuida de negocios pequeños y lugares comunitarios donde las personas se reúnen para crear
+                    cosas.
+
+                    WikiHouse fomenta la colaboración y la retroalimentación entre los usuarios, lo que permite mejorar
+                    los diseños y compartir experiencias de construcción. Esto crea una comunidad de aprendizaje en
+                    constante evolución.
+                    Es importante destacar que WikiHouse se centra en la idea de la construcción de viviendas de código
+                    abierto y la democratización de la construcción, lo que significa que cualquiera puede contribuir
+                    con diseños, mejoras y conocimientos a la plataforma. Además, WikiHouse se adapta a diferentes
+                    contextos locales y necesidades, lo que lo convierte en una herramienta versátil para abordar los
+                    desafíos de la vivienda en diversas partes del mundo.
+                </p>
+                </p>
+
+              
+                <div style="display: flex;justify-content: center;align-items:center; margin-top: 33px; flex-direction: column;">
+
+                    <img src="internal.png" alt=""
+                        style="width:360px;">
+                        <p style="color: black;">Paredes internas - guia de diseño </p>
+                </div>
+                
+                
+                <h1 style="color: black;"><b>Wikihouse en relación con la inteligencia colectiva y la cultura fan</b></h1>
+                <h3 style="color: black;"><b>Inteligencia colectiva</b></h3>
+                <p>
+                <p>Diseño Colaborativo: WikiHouse es un ejemplo de diseño colaborativo en el que personas de todo el
+                    mundo pueden contribuir con sus conocimientos y habilidades en la creación y mejora de diseños de
+                    viviendas. La inteligencia colectiva se manifiesta a través de la colaboración de diseñadores,
+                    arquitectos y fabricantes de todo el mundo, lo que permite la creación de diseños de casas más
+                    innovadores y adaptables.
+
+                    Mejora Continua: La plataforma WikiHouse fomenta la retroalimentación y la mejora continua de los
+                    diseños. Los usuarios pueden aportar sus ideas y sugerencias para hacer que los diseños sean más
+                    eficientes, sostenibles y accesibles. Esto es un claro ejemplo de cómo la inteligencia colectiva
+                    puede contribuir a la evolución de un proyecto.
+                </p>
+                </p>
+
+                <br>
+                <h3 style="color: black;"><b>Cultura Fan</b></h3>
+                <p>
+                <p>Comunidad de Entusiastas: WikiHouse ha desarrollado una comunidad de entusiastas y seguidores que
+                    están apasionados por la idea de la construcción de viviendas de código abierto y asequibles. Estos
+                    seguidores pueden considerarse una forma de "cultura fan" en el sentido de que comparten un interés
+                    común y están comprometidos con la promoción y el éxito del proyecto.
+
+                    Compartir y Difundir: Los seguidores de WikiHouse a menudo comparten activamente información sobre
+                    el proyecto en línea y en las redes sociales. Esta difusión ayuda a que más personas conozcan y se
+                    involucren en WikiHouse, lo que contribuye al crecimiento de la comunidad y al impacto del proyecto.
+
+                    En resumen, WikiHouse es un ejemplo de cómo la inteligencia colectiva y la cultura fan pueden
+                    impulsar la innovación y la colaboración en proyectos que buscan soluciones a problemas complejos,
+                    como la vivienda asequible y sostenible. La participación activa de una comunidad diversa y
+                    apasionada es fundamental para el éxito y la difusión de iniciativas como WikiHouse.
+                </p>
+                </p>
+                
+                <div style="display: flex;justify-content: center;align-items:center; margin-top: 33px; flex-direction: column;">
+
+                    <img src="casa.png" alt=""
+                        style="width:360px;">
+                        <p style="color: black;">Proyecto de un miembro de la comunidad</p>
+                </div>
+
+                <h1 style="color: black;"><b>Principales Características</b></h1>
+                <ul style="margin-bottom: 9px;">
+                    <li><b>Diseño abierto:</b> WikiHouse proporciona planos de viviendas en línea de código abierto que cualquiera puede acceder y modificar. Esto permite a las personas personalizar sus viviendas según sus necesidades específicas.</li>
+                    <li><b>Fabricación digital:</b> Las piezas de las viviendas WikiHouse se cortan con máquinas de control numérico por computadora (CNC) a partir de láminas de madera contrachapada. Esto facilita la construcción y reduce los costos.</li>
+                    <li><b>Montaje sencillo:</b> Las piezas de una vivienda WikiHouse están diseñadas para ser ensambladas fácilmente sin necesidad de habilidades de construcción avanzadas. Esto hace que el proceso de construcción sea más accesible.</li>
+                    <li><b>Comunidad colaborativa:</b> WikiHouse fomenta la colaboración y el intercambio de conocimientos entre personas interesadas en la construcción de viviendas asequibles y sostenibles.</li>
+                    <li><b>Enfoque en la sostenibilidad:</b> Muchos diseños de WikiHouse están orientados hacia la eficiencia energética y el uso de materiales sostenibles, lo que contribuye a reducir el impacto ambiental de las viviendas.</li>
+                    <li><b>Costos reducidos:</b> La combinación de diseño abierto, fabricación digital y montaje sencillo puede reducir significativamente los costos de construcción en comparación con métodos tradicionales.</li>
+                </ul>
+
+                <div style="display: flex;justify-content: center;align-items:center; margin-top: 33px;margin-bottom: 39px; flex-direction: column;">
+
+                    <img src="cut.png" alt=""
+                        style="width:360px;">
+                        <p style="color: black;">Instrucciones de corte de bloques - guia de diseño </p>
+                </div>
+
+                
+                
+            </div>
+            <!-- barra izq -->
+            <div class="col-sm-2 sidenav" style="background-color: rgb(0, 0, 0);height: 100vh;">
+                <div class="well" style="background-color: rgb(0, 0, 0); border-color: rgb(0, 0, 0);">
+                    <a href="https://www.wikihouse.cc/"><img src="logo.png" alt="" style="width: 69px;"></a>
+                </div>
+                <div class="well" style="background-color: rgb(0, 0, 0); border-color: rgb(0, 0, 0);">
+                    <p style="color: white; font-weight: 600; font-size: large;"><a
+                            style="text-decoration: underline; color: white;" href="https://www.wikihouse.cc/">Wikihouse
+                            sitio web</a></p>
+                </div>
+                <div class="well" style="background-color: rgb(0, 0, 0); border-color: rgb(0, 0, 0);">
+                    <p style="color: white; font-weight: 600; font-size: large;"><a
+                            style="text-decoration: underline; color: white;"
+                            href="https://www.wikihouse.cc/start">Empieza tu proyecto</a></p>
+                </div>
+                <div class="well" style="background-color: rgb(0, 0, 0); border-color: rgb(0, 0, 0);">
+                    <p style="color: white; font-weight: 600; font-size: large;"><a
+                            style="text-decoration: underline; color: white;"
+                            href="https://www.wikihouse.cc/community">Comunidad</a></p>
+                </div>
+                <div class="well" style="background-color: rgb(0, 0, 0); border-color: rgb(0, 0, 0);">
+                    <p style="color: white; font-weight: 600; font-size: large;"><a
+                            style="text-decoration: underline; color: white;"
+                            href="https://www.wikihouse.cc/projects">Proyectos</a></p>
+                </div>
+            </div>
+            <!-- barra izq -->
+        </div>
+    </div>
+
+    <footer id="team" class="container-fluid text-left" style="background-color: black;">
+        <h1 style="color: rgb(255, 255, 255);"><b>Equipo InnovaSphere</b></h1>
+        <ul>
+           <li style="color: rgb(255, 255, 255);"><b>Antonio Cadavid</b></li>
+           <li style="color: rgb(255, 255, 255);"><b>Amalia Gomez</b></li>
+           <li style="color: rgb(255, 255, 255);"><b>Andrés Osorio</b></li>
+           <li style="color: rgb(255, 255, 255);"><b>Laura Rivera</b></li>
+           <li style="color: rgb(255, 255, 255);"><b>Sara Gonzáles</b></li>
+           
+           
+        </ul>
+    </footer>
+
+    <footer class="container-fluid text-center" style="background-color: black;">
+        <p style="color: rgb(255, 255, 255);"><b>InnovaSphere 2023</b></p>
+    </footer>
+
+</body>
+
+</html>
